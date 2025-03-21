@@ -18,11 +18,11 @@ h1 {
     font-size: 4.5rem;
 }
 
-nav {
+.barra {
     background-color: #00f7f7;
     padding: 1rem;
     text-align: center;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:"Winky Sans", sans-serif;
     image-rendering: "#";
 }
 
@@ -58,3 +58,7 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+/* .productos {
+    size: 10px 20px;
+/* } /*No*/
