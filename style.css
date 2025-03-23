@@ -1,7 +1,4 @@
 * {
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
     background-image: url("./img/font2.jpg");
     background-size: 1920px 1080px;
     background-attachment: fixed;
@@ -29,6 +26,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .barra {
     /* background-color: #f700f798;
     background-blend-mode: overlay; */ /*REVER*/
@@ -36,6 +34,7 @@ section {
     text-align: center;
     font-family:"Winky Sans", sans-serif;
     image-rendering: "#";
+    list-style: none;
 }
 
 .lorem {
