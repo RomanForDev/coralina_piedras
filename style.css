@@ -47,6 +47,7 @@ section {
     font-family:"Winky Sans", sans-serif;
     image-rendering: "#";
     list-style: none;
+    text-decoration: none;
 }
 
 .lorem {
