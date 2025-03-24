@@ -1,4 +1,4 @@
-* {
+body {
     background-image: url("./img/font2.jpg");
     background-size: 1920px 1080px;
     background-attachment: fixed;
@@ -6,8 +6,13 @@
     background-position: center;
 }
 
+nav {
+    background-color:#f700eb8c ;
+    background-blend-mode: overlay;
+}
+
 h1 {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     color: rgb(255, 0, 221);
     text-align: center;
     padding: 1rem;
@@ -57,7 +62,8 @@ section {
 }
 
 footer {
-    background-color: #00f7f7;
+    background-color: #f700eb8c;
+    background-blend-mode: overlay;
     background-position: bottom;
     color: rgb(255, 0, 221);
     padding: 1rem;
