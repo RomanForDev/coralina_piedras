@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    background-color:#f700eb8c ;
+    background-color: #EEC8E0/*rgb(57, 47, 90)*/;
     background-blend-mode: overlay;
 }
 
@@ -42,17 +42,20 @@ section {
 .caja {
     width: 200vh;
     height: 50vh;
-    background-color: rgba(247, 189, 0, 0.596);
+    background-color: #F092DD/*rgba(0, 247, 247, 0.596)*/;
     background-blend-mode:screen;
     text-align: center;
-    border: 2px solid rgba(247, 189, 0, 0.596);
+    border: 2px solid rgba(227, 0, 247, 0.842);
     margin: 0 auto;
     line-height: 100px;
 }
 
 .barra {
-    /* background-color: #f700f798;
-    background-blend-mode: overlay; */ /*REVER*/
+    /* background-color: #f700f798; */
+    /*background-blend-mode: overlay; */ /*REVER*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*alinea los elementos que contiene el flex al ancho del contenedor y les aplica el espacio para que queden simétricos*/
     padding: 1rem;
     text-align: center;
     font-family:"Winky Sans", sans-serif;
@@ -61,6 +64,17 @@ section {
     text-decoration: none;
 }
 
+.catalogo {
+    display: flex;
+    padding: 1rem;
+    text-align: center;
+    font-family:"Winky Sans", sans-serif;
+    image-rendering: "#";
+    list-style: none;
+    text-decoration: none;
+    /* position: relative; */
+    justify-content: center;
+}
 
 .presentacion {
     padding: 1rem;
@@ -77,7 +91,7 @@ section {
 }
 
 footer {
-    background-color: #f700eb8c;
+    background-color: #392F5A/*#f700eb8c*/;
     background-blend-mode: overlay;
     background-position: bottom;
     color: rgb(255, 0, 221);
@@ -94,3 +108,10 @@ footer {
 /* .productos {
     size: 10px 20px;
 /* } /*No*/
+
+/* Paleta de colores:
+#392F5A
+#F092DD
+#FFAFF0
+#EEC8E0
+*/
