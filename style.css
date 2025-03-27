@@ -66,14 +66,15 @@ section {
 
 .catalogo {
     display: flex;
-    padding: 1rem;
-    text-align: center;
+    /* align-items:center; revisar porque no hay mucha diferencia entre uno y otro estilo, puede ser el justify content porque el catálogo no tiene elementos hijos */
+    /* padding: 1rem;
+    text-align: center; */
     font-family:"Winky Sans", sans-serif;
-    image-rendering: "#";
     list-style: none;
     text-decoration: none;
     /* position: relative; */
-    justify-content: center;
+    justify-content: center; /*Horizontal*/
+    align-items: center; /*Vertical*/
 }
 
 .presentacion {
