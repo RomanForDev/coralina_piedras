@@ -39,6 +39,17 @@ section {
     background-position: center;
 }
 
+.caja {
+    width: 200vh;
+    height: 50vh;
+    background-color: rgba(247, 189, 0, 0.596);
+    background-blend-mode:screen;
+    text-align: center;
+    border: 2px solid rgba(247, 189, 0, 0.596);
+    margin: 0 auto;
+    line-height: 100px;
+}
+
 .barra {
     /* background-color: #f700f798;
     background-blend-mode: overlay; */ /*REVER*/
@@ -50,20 +61,14 @@ section {
     text-decoration: none;
 }
 
-.lorem {
-    padding: 3.5rem;
-    text-align: center;
-    font-family:"Winky Sans", sans-serif;
-    font-size: 1.5rem;
-}
 
 .presentacion {
     padding: 1rem;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("./img/font2.jpg");
+    /* background-image: url("./img/font2.jpg"); */
     background-size: 1920px 1080px;
     background-attachment: fixed;
     background-repeat: no-repeat;
