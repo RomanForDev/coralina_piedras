@@ -81,8 +81,9 @@ section {
     border: black 1px solid;
     height: 15rem;
     width: 75rem;
-    /* align-items: start; */
+    align-items: center; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
     justify-content: start;
+    text-align: start;
 }
 
 .vista_piedra_reverse {
@@ -90,8 +91,9 @@ section {
     border: black 1px solid;
     height: 15rem;
     width: 75rem;
-    /* align-items: end; */
+    align-items: center; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
     justify-content: end;
+    text-align: end;
 }
 
 .presentacion {
