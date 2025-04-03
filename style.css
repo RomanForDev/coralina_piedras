@@ -29,7 +29,7 @@ h2 {
 
 section {
     background-color: #f705ff85;
-    padding: 1rem;
+    padding: 0.1rem;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url("./img/font2.jpg");
@@ -65,16 +65,33 @@ section {
 }
 
 .catalogo {
-    display: flex;
+    display: grid;
     /* align-items:center; revisar porque no hay mucha diferencia entre uno y otro estilo, puede ser el justify content porque el catálogo no tiene elementos hijos */
-    /* padding: 1rem;
-    text-align: center; */
+    /* padding: 1rem; */
     font-family:"Winky Sans", sans-serif;
     list-style: none;
     text-decoration: none;
     /* position: relative; */
-    justify-content: center; /*Horizontal*/
+    justify-content:start; /*Horizontal*/
     align-items: center; /*Vertical*/
+}
+
+.vista_piedra {
+    display: grid;
+    border: black 1px solid;
+    height: 15rem;
+    width: 75rem;
+    /* align-items: start; */
+    justify-content: start;
+}
+
+.vista_piedra_reverse {
+    display: grid;
+    border: black 1px solid;
+    height: 15rem;
+    width: 75rem;
+    /* align-items: end; */
+    justify-content: end;
 }
 
 .presentacion {
