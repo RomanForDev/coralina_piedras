@@ -96,6 +96,10 @@ section {
     text-align: end;
 }
 
+.propiedades {
+    display: grid;
+    text-align: inherit;
+}
 .presentacion {
     padding: 1rem;
     text-align: center;
