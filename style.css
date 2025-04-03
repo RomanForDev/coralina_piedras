@@ -79,8 +79,8 @@ section {
 .vista_piedra {
     display: grid;
     border: black 1px solid;
-    height: 15rem;
-    width: 75rem;
+    height: 100%/*15rem*/;
+    width: 100%/*75rem*/;
     align-items: center; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
     justify-content: start;
     text-align: start;
@@ -89,8 +89,8 @@ section {
 .vista_piedra_reverse {
     display: grid;
     border: black 1px solid;
-    height: 15rem;
-    width: 75rem;
+    height: 100%/*15rem*/;
+    width: 100%/*75rem*/;
     align-items: center; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
     justify-content: end;
     text-align: end;
@@ -98,7 +98,7 @@ section {
 
 .propiedades {
     display: grid;
-    text-align: inherit;
+    text-align: start;
 }
 .presentacion {
     padding: 1rem;
