@@ -66,15 +66,12 @@ section {
 
 .catalogo {
     display: grid;
-    /* align-items:center; revisar porque no hay mucha diferencia entre uno y otro estilo, puede ser el justify content porque el catálogo no tiene elementos hijos */
-    /* padding: 1rem; */
     font-family:"Winky Sans", sans-serif;
     list-style: none;
     text-decoration: none;
-    /* position: relative; */
-    justify-content:start; /*Horizontal*/
-    align-items: center; /*Vertical*/
-    display: inline-block;
+    /*justify-content:start; Horizontal
+    align-items: start; Vertical*/
+    image-resolution: 200px 200px;
 }
 
 .vista_piedra {
@@ -82,10 +79,8 @@ section {
     border: black 1px solid;
     height: 100%/*15rem*/;
     width: 100%/*75rem*/;
-    align-items: center; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
-    justify-content: start;
-    text-align: start;
-    display: inline-block;
+    align-items: start;
+    image-resolution: 200px 200px; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
 }
 
 .vista_piedra_reverse {
@@ -93,9 +88,8 @@ section {
     border: black 1px solid;
     height: 100%/*15rem*/;
     width: 100%/*75rem*/;
-    align-items: center; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
-    /* justify-content: end;
-    text-align: end; */
+    align-items: end; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
+    image-resolution: 200px 200px;
 }
 
 .propiedades {
