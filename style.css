@@ -11,11 +11,11 @@ nav {
     background-blend-mode: overlay;
 }
 
-h1 {
+.titulo {
     /* background-color: #ffffff; */
     color: rgb(255, 0, 221);
     text-align: center;
-    padding: 1rem;
+    padding: 0.1rem;
     font-family: "Dancing Script", cursive;
     font-size: 6rem;
 }
