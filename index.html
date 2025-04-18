@@ -8,6 +8,8 @@
         <link href="link rel="preconnect href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+        <!-- Bootstrap! -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
         <!-- CSS!! -->
         <link rel="stylesheet" href="style.css">
     </head>
@@ -19,19 +21,42 @@
                 <ul link rel="preconnect" href="https://fonts.googleapis.com">
                     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Euphoria+Script&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-                    <ul class="barra">    
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./pages/productos.html">Propiedades</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-                    <li><a href="./pages/ingresar.html">Ingresar</a></li>
-                    <li><a href="./pages/vista_admin.html">###</a></li>
+                <ul class="barra">    
+                        <li class="boton"><a href="../index.html">Inicio</a></li>
+                        <li class="boton"><a href="./pages/productos.html">Propiedades</a></li class="boton">
+                        <li class="boton"><a href="./pages/contacto.html">Contacto</a></li class="boton">
+                        <li class="boton"><a href="./pages/ingresar.html">Ingresar</a></li class="boton">
+                        <li class="boton"><a href="./pages/vista_admin.html">###</a></li class="boton">
                 </ul class="barra">
             </nav>
         </main>
-        <!-- Section presentación. (Falta una box de fondo) -->
-        <section class="caja">
+
+        <!-- Carrusel de bootstrap -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/propiedades/cornalina.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/propiedades/cuarzo_rosa.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/propiedades/selenita.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- <section class="caja">
             <h2 class="presentacion">Somos un emprendimiento familiar dedicado a la venta de piedras energéticas. Tenemos muchos diseños y modelos que podes visitar en nuestro apartado "Productos"</h2 class="presentacion">                
-        </section class= "caja">
+        </section class= "caja"> -->
 
         <!-- Video! -->
         
@@ -45,5 +70,10 @@
             <a href="#"><img src="../img/logo_wsp.avif" alt="Twitter" height="100px" weight="100px"></a>
         </footer>
         
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     </body>
 </html>
