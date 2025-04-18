@@ -64,8 +64,14 @@ section {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 .catalogo {
     display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 250px);
     font-family:"Winky Sans", sans-serif;
     list-style: none;
     text-decoration: none;
@@ -73,26 +79,114 @@ section {
     align-items: start; Vertical*/
 }
 
-.vista_piedra {
-    display: grid;
+.cornalina {
+    grid-column: 1/3;
+    grid-row: 1;
     border: black 1px solid;
-    height: 100%/*15rem*/;
-    width: 100%/*75rem*/;
-    align-items: start; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
 }
 
-.vista_piedra_reverse {
-    display: grid;
+.cornalina-texto {
+    grid-column: 3/8;
+    grid-row: 1;
     border: black 1px solid;
-    height: 100%/*15rem*/;
-    width: 100%/*75rem*/;
-    align-items: end; /*Fijate que el texto que tiene cada imagen no deja centralizar la img*/
 }
 
-.propiedades {
-    display: grid;
-    text-align: start;
+.cuarzo-rosa {
+    grid-column: 6/8;
+    grid-row: 2;
+    border: black 1px solid;
 }
+
+.cuarzorosa-texto {
+    grid-column: 1/6;
+    grid-row: 2;
+    border: black 1px solid;
+}
+
+.cuarzo-verde {
+    grid-column: 1/3;
+    grid-row: 3;
+    border: black 1px solid;
+}
+
+.cuarzoverde-texto {
+    grid-column: 3/8;
+    grid-row: 3;
+    border: black 1px solid;
+}
+
+.onix-cielo {
+    grid-column: 6/8;
+    grid-row: 4;
+    border: black 1px solid;
+}
+
+.onixcielo-texto {
+    grid-column: 1/6;
+    grid-row: 4;
+    border: black 1px solid;
+}
+
+.onix-negro {
+    grid-column: 1/3;
+    grid-row: 5;
+    border: black 1px solid;
+}
+
+.onixnegro-texto {
+    grid-column: 3/8;
+    grid-row: 5;
+    border: black 1px solid;
+}
+
+.esmeralda {
+    grid-column: 6/8;
+    grid-row: 6;
+    border: black 1px solid;
+}
+
+.esmeralda-texto {
+    grid-column: 1/6;
+    grid-row: 6;
+    border: black 1px solid;
+}
+
+.selenita {
+    grid-column: 1/3;
+    grid-row: 7;
+    border: black 1px solid;
+}
+
+.selenita-texto {
+    grid-column: 3/8;
+    grid-row: 7;
+    border: black 1px solid;
+}
+
+.sodalita {
+    grid-column: 6/8;
+    grid-row: 8;
+    border: black 1px solid;
+}
+
+.sodalita-texto {
+    grid-column: 1/6;
+    grid-row: 8;
+    border: black 1px solid;
+}
+
+.turmalina {
+    grid-column: 1/3;
+    grid-row: 9;
+    border: black 1px solid;
+}
+
+.turmalina-texto {
+    grid-column: 3/8;
+    grid-row: 9;
+    border: black 1px solid;
+}
+
 .presentacion {
     padding: 1rem;
     text-align: center;
