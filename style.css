@@ -210,12 +210,14 @@ li {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; /*alinea los elementos que contiene el flex al ancho del contenedor y les aplica el espacio para que queden simétricos*/
     background-color: #392F5A/*#f700eb8c*/;
     background-blend-mode: overlay;
     background-position: bottom;
     color: rgb(255, 0, 221);
     padding: 1rem;
-    text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url("./img/font2.jpg");
     background-size: 1920px 1080px;
