@@ -1,6 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("./img/font2.jpg");
-    background-size: 1920px 1080px;
+    background-size:cover; /* 1920px 1080px; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,12 +34,12 @@ h2 {
 }
 
 section {
-    background-color: #f705ff85;
+    /* background-color: #f705ff85; */
     padding: 0.1rem;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-image: url("./img/font2.jpg");
-    background-size: 1920px 1080px;
+    /* background-image: url("./img/font2.jpg");
+    background-size: 1920px 1080px; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -55,17 +61,14 @@ section {
 }
 
 .barra {
-    /* background-color: #f700f798; */
-    /*background-blend-mode: overlay; */ /*REVER*/
+
     display: flex;
-    flex-direction: row;
-    justify-content: space-around; /*alinea los elementos que contiene el flex al ancho del contenedor y les aplica el espacio para que queden simétricos*/
+    flex-direction:row;
+    justify-content: space-around;
     padding: 1rem;
     text-align: center;
     font-family:"Winky Sans", sans-serif;
-    /* image-rendering: "#"; */
     list-style: none;
-    /* text-decoration: none; */
 }
 
 .boton {
@@ -83,8 +86,8 @@ li {
     font-family:"Winky Sans", sans-serif;
     list-style: none;
     text-decoration: none;
-    /*justify-content:start; Horizontal
-    align-items: start; Vertical*/
+    justify-content:center; /*Horizontal*/
+    align-items: center; /*Vertical*/
 }
 
 .cornalina {
@@ -94,13 +97,13 @@ li {
 }
 
 .cornalina-texto {
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 1;
     border: black 1px solid;
 }
 
 .cuarzo-rosa {
-    grid-column: 6/8;
+    grid-column: 6/9;
     grid-row: 2;
     border: black 1px solid;
 }
@@ -118,13 +121,13 @@ li {
 }
 
 .cuarzoverde-texto {
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 3;
     border: black 1px solid;
 }
 
 .onix-cielo {
-    grid-column: 6/8;
+    grid-column: 6/9;
     grid-row: 4;
     border: black 1px solid;
 }
@@ -142,13 +145,13 @@ li {
 }
 
 .onixnegro-texto {
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 5;
     border: black 1px solid;
 }
 
 .esmeralda {
-    grid-column: 6/8;
+    grid-column: 6/9;
     grid-row: 6;
     border: black 1px solid;
 }
@@ -166,13 +169,13 @@ li {
 }
 
 .selenita-texto {
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 7;
     border: black 1px solid;
 }
 
 .sodalita {
-    grid-column: 6/8;
+    grid-column: 6/9;
     grid-row: 8;
     border: black 1px solid;
 }
@@ -190,7 +193,7 @@ li {
 }
 
 .turmalina-texto {
-    grid-column: 3/8;
+    grid-column: 3/9;
     grid-row: 9;
     border: black 1px solid;
 }
@@ -225,6 +228,21 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+/*--Media Querys!--*/
+@media (min-width: 428px) and (max-width: 768px) {
+    .barra {
+        /* display: flex;
+        flex-direction: row; */
+        justify-content: space-between;
+        /* padding: 1rem;
+        text-align: center;
+        font-family:"Winky Sans", sans-serif;
+        list-style: none; */
+    }
+}
+
 
 /* .productos {
     size: 10px 20px;
