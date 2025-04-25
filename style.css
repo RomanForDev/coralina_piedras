@@ -41,6 +41,8 @@ section {
     background-position: center;
 }
 
+/*Index y carrusel*/
+
 .carousel-inner {
     height: 50vh;
     width: 100%;
@@ -57,16 +59,16 @@ section {
     object-fit:cover;
 }
 
-.caja {
+/* .caja {
     width: 200vh;
     height: 50vh;
-    background-color: #F092DD/*rgba(0, 247, 247, 0.596)*/;
+    background-color: #F092DD/*rgba(0, 247, 247, 0.596);
     background-blend-mode:screen;
     text-align: center;
     border: 2px solid rgba(227, 0, 247, 0.842);
     margin: 0 auto;
     line-height: 100px;
-}
+} */
 
 .barra {
     
