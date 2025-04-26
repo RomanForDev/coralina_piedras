@@ -29,8 +29,8 @@ nav {
 h2 {
     text-align: center;
     padding: 1rem;
-    font-family: "Dancing Script", cursive;
-    font-size: 2.5rem;
+    font-family: "Mea Culpa", cursive;
+    font-size: 4rem;
 }
 
 section {
@@ -76,12 +76,14 @@ section {
     display: flex;
     flex-direction:row;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 0.5rem;
     margin:0;
     box-sizing: border-box;
     text-align: center;
-    font-family:"Winky Sans", sans-serif;
+    font-family: "Spectral", serif;
     list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .boton {
@@ -120,6 +122,10 @@ li {
     grid-row: 1;
     justify-content: center;
     text-align:start;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -135,6 +141,10 @@ li {
     grid-row: 2;
     justify-content: center;
     text-align:end;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -150,6 +160,10 @@ li {
     grid-row: 3;
     justify-content: center;
     text-align:start;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -165,6 +179,10 @@ li {
     grid-row: 4;
     justify-content: center;
     text-align:end;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -180,6 +198,10 @@ li {
     grid-row: 5;
     justify-content: center;
     text-align:start;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -195,6 +217,10 @@ li {
     grid-row: 6;
     justify-content: center;
     text-align:end;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -210,6 +236,10 @@ li {
     grid-row: 7;
     justify-content: center;
     text-align:start;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -225,6 +255,10 @@ li {
     grid-row: 8;
     justify-content: center;
     text-align:end;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
@@ -240,6 +274,10 @@ li {
     grid-row: 9;
     justify-content: center;
     text-align:start;
+    font-family: "Spectral", serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    text-shadow: 0 0 4px #ffffff, 0 0 5px #ffffff, 0 0 6px #ffffff, 0 0 7px #ffffff, 0 0 8px #ffffff, 0 0 9px #ffffff, 0 0 10px #ffffff;
     /* border: 1px solid black; */
 }
 
