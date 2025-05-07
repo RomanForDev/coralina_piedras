@@ -3,12 +3,13 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        // overflow-x: hidden;
     }
 
     .barra {
         justify-content: space-around;
-        /* justify-items: center;
-        flex-direction: row; */
+        justify-items: center;
+        flex-direction: row;
     }
 
     .catalogo {

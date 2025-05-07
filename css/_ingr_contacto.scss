@@ -1,0 +1,50 @@
+// ingresar.html y contacto.html
+
+.formulario {
+    // border: 1px solid black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 12rem;
+    .mb-3 {
+        width: 20rem;
+        .form-check-input {
+            display:flex;
+            flex-direction: row;
+            row-gap: 0px;
+        }
+        .form-check-label {
+            display:flex;
+            flex-direction: row;
+            row-gap: 0px;
+            font-family: "Playwrite DE Grund", cursive;
+        }
+        .form-label {
+            font-family: "Playwrite DE Grund", cursive;
+        }
+    }
+    .btn-primary {
+        background-color: #D288E7;
+    }
+    .map {
+        align-self: center;
+    }
+}
+
+.ingresar {
+    justify-self: center;
+    width: 40%;
+    .form-check-input {
+        font-family: "Playwrite DE Grund", cursive;
+    }
+    .form-check-label {
+        font-family: "Playwrite DE Grund", cursive;
+    }
+    .form-label {
+        font-family: "Playwrite DE Grund", cursive;
+    }
+.btn-primary {
+    background-color: #D288E7;
+    }
+}
