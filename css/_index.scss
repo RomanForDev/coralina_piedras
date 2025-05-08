@@ -100,21 +100,23 @@ body {
         justify-content: center;
         gap: 10rem;
         margin: 4rem;
-        border-radius: 10%;
+        // border-radius: 10%;
         padding: 0rem;
         // @include aaa {
         //     display: flex;
         //     flex-direction: column;
         // }
         .img {
-            border-radius: 10%;
-            min-width: 300px; //ver esto
-            min-height: 350px; //ver esto
-            // height: 10vw;
-            // width: 10vh;
+            // border-radius: 10%;
+            // min-width: 10%; //ver esto
+            // min-height: 10%;
+            height: 10vw;
+            width: 10vh;
         }
         .img-index {
             border-radius: 10%;
+            // max-width: 10%; //ver esto
+            // max-height: 10%;
             padding: 0rem;
             box-shadow: 0 0 20px #727272d2;
         }
