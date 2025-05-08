@@ -26,6 +26,8 @@ body {
         background-color: #FDC9DF;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
+        text-shadow: 0px 0px 30px #727272d2;
+        box-shadow: 0 0 15px #727272d2;
     }
 
     .top {
@@ -72,6 +74,7 @@ body {
                         font-size: 1.2rem;
                         list-style: none;
                         text-decoration: none;
+                        text-shadow: 0px 0px 20px #727272d2;
                         // @include aaa {
                         //     height: 8px;
                         //     width: 8px;
@@ -91,6 +94,8 @@ body {
         font-family: "Cookie", cursive;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
+        box-shadow: 0 0 15px #727272d2;
+        text-shadow: 0px 0px 40px #727272d2;
     }
 
     .carrusel {
@@ -120,7 +125,6 @@ body {
             border-radius: 10%;
             max-width: 100%; //ver esto
             max-height: 100%;
-            padding: 0rem;
             box-shadow: 0 0 20px #727272d2;
         }
         .caja {
@@ -163,6 +167,7 @@ body {
         background-blend-mode: overlay;
         background-position: bottom;
         padding: 1rem;
+        box-shadow: 0 0 10px #727272d2;
         .copy {
             display: flex;
             flex-direction: row;
