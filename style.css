@@ -123,6 +123,7 @@ body .top {
   padding: 0;
   background-color: #F7EFFA;
   box-sizing: border-box;
+  position: relative;
 }
 body .top main nav {
   display: flex;
@@ -133,6 +134,9 @@ body .top main nav {
   padding: 0.5rem;
   max-width: 100%;
   max-height: 75px;
+}
+body .top main nav {
+  transition: 0.5s;
 }
 body .top main nav .logo {
   position: relative;
@@ -147,17 +151,23 @@ body .top main nav .barra {
   margin-right: 1rem;
   margin-top: 1rem;
   width: 100%;
-  background-color: #D288E7;
+  background-color: rgba(210, 136, 231, 0);
   gap: 2rem;
+}
+body .top main nav .barra {
+  transition: 0.5s;
 }
 body .top main nav .barra .boton {
   color: #F7EFFA;
-  background-color: #D288E7;
+  background-color: rgba(210, 136, 231, 0);
   font-family: "Playwrite DE Grund", cursive;
   font-size: 1.2rem;
   list-style: none;
   text-decoration: none;
   text-shadow: 0px 0px 20px rgba(114, 114, 114, 0.8235294118);
+}
+body .top main nav .barra .boton {
+  transition: 0.5s;
 }
 body .titulo {
   background-color: #FDC9DF;
@@ -170,6 +180,9 @@ body .titulo {
   border-bottom-right-radius: 100%;
   box-shadow: 0 0 15px rgba(114, 114, 114, 0.8235294118);
   text-shadow: 0px 0px 40px rgba(114, 114, 114, 0.8235294118);
+}
+body .titulo {
+  transition: 0.7s;
 }
 body .carrusel {
   background-color: #FDC9DF;
