@@ -172,6 +172,7 @@ body footer .redes .ftr-img {
   padding-bottom: 2rem;
   justify-content: center; /*Horizontal*/
   align-items: center; /*Vertical*/
+  overflow: hidden;
 }
 .catalogo .cornalina {
   grid-column: 1/3;
