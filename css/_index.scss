@@ -1,10 +1,11 @@
 // index
+@use "./vars" as*;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F7EFFA;
+    background-color: $color1;
     list-style: none;
     // @include aaa {
     //     margin: 0;
@@ -16,14 +17,14 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F7EFFA;
+    background-color: $color1;
     box-sizing: border-box;
     h2 {
         text-align: center;
         padding: 1rem;
-        font-family: "Cookie", cursive;
+        font-family: $fuente-titulo;
         font-size: 4rem;
-        background-color: #FDC9DF;
+        background-color: $color4;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
         text-shadow: 0px 0px 30px #727272d2;
@@ -33,7 +34,7 @@ body {
     .top {
         margin: 0;
         padding: 0;
-        background-color: #F7EFFA;
+        background-color: $color1;
         box-sizing: border-box;
         position: relative;
         main {
@@ -42,7 +43,7 @@ body {
                 flex-direction: row;
                 width: 100%;
                 height: 15vh;
-                background-color: #D288E7;
+                background-color: $color2;
                 padding: 0.5rem;
                 max-width: 100%;
                 max-height: 75px;
@@ -77,9 +78,9 @@ body {
                     //     max-width: 80%;
                     // }
                     .boton {
-                        color: #F7EFFA;
+                        color: $color1;
                         background-color: #d288e700;
-                        font-family: "Playwrite DE Grund", cursive;
+                        font-family: $fuente-nav;
                         font-size: 1.2rem;
                         list-style: none;
                         text-decoration: none;
@@ -98,12 +99,12 @@ body {
     }
 
     .titulo {
-        background-color: #FDC9DF;
+        background-color: $color4;
         color: black; //$color3;
         text-align: center;
         padding: 1rem;
         font-size: 6rem;
-        font-family: "Cookie", cursive;
+        font-family: $fuente-titulo;
         border-bottom-left-radius: 100%;
         border-bottom-right-radius: 100%;
         box-shadow: 0 0 15px #727272d2;
@@ -114,7 +115,7 @@ body {
     }
 
     .carrusel {
-        background-color: #FDC9DF;
+        background-color: $color4;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -143,7 +144,7 @@ body {
             box-shadow: 0 0 20px #727272d2;
         }
         .caja {
-            background-color: #FDC9DF;
+            background-color: $color4;
             // display: flex;
             // flex-direction: row;
             width: 350px;
@@ -158,11 +159,11 @@ body {
                 padding: 1rem;
                 // justify-content:space-evenly;
                 // line-height: 3rem;
-                font-family: "Cookie", cursive;
+                font-family: $fuente-titulo;
                 font-size: 1.6rem;
                 color: black;
                 text-align: center;
-                background-color: #FDC9DF;
+                background-color: $color4;
             }
         }
         // .video {
@@ -175,7 +176,7 @@ body {
     // footer general
 
     footer {
-        background-color: #FAA3E6;
+        background-color: $color3;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -189,14 +190,14 @@ body {
             justify-self: start;
             justify-items: center;
             align-items: center;
-            background-color: #FAA3E6;
+            background-color: $color3;
         }
         .redes {
-            background-color: #FAA3E6;
+            background-color: $color3;
             display: flex;
             column-gap: 3.5rem;
             .ftr-img {
-                background-color: #FAA3E6;
+                background-color: $color3;
                 display: flex;
                 flex-direction: row;
                 justify-self: end;
