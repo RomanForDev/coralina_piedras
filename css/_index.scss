@@ -1,4 +1,3 @@
-// index
 @use "./vars" as*;
 
 * {
@@ -7,11 +6,6 @@
     box-sizing: border-box;
     background-color: $color1;
     list-style: none;
-    // @include aaa {
-    //     margin: 0;
-    //     padding: 0;
-    //     box-sizing: border-box;
-    // }
 }
 
 body {
@@ -49,7 +43,6 @@ body {
                 max-height: 75px;
                 & {
                     transition: 0.5s;
-                    // background-image: linear-gradient(to top, #D288E7, #F7EFFA);
                 }
                 .logo {
                     position: relative;
@@ -68,15 +61,7 @@ body {
                     gap: 2rem;
                     & {
                     transition: 0.5s;
-                    // background-image: linear-gradient(to top, #D288E7, #F7EFFA);
                 }
-                    // @include aaa {
-                    //     justify-content: space-around;
-                    //     justify-items: center;
-                    //     flex-direction: row;
-                    //     gap: 0px;
-                    //     max-width: 80%;
-                    // }
                     .boton {
                         color: $color1;
                         background-color: #d288e700;
@@ -88,10 +73,6 @@ body {
                         & {
                             transition: 0.5s;
                         }
-                        // @include aaa {
-                        //     height: 8px;
-                        //     width: 8px;
-                        // }
                     }
                 }
             }
@@ -125,16 +106,8 @@ body {
         padding-left: 5rem;
         padding-right: 5rem;
         padding-bottom: 1rem;
-        // @include aaa {
-        //     display: flex;
-        //     flex-direction: column;
-        // }
         .img {
             border-radius: 10%;
-            // min-width: 10%; //ver esto
-            // min-height: 10%;
-            // height: 10vw;
-            // width: 10vh;
             object-fit: contain;
         }
         .img-index {
@@ -145,20 +118,14 @@ body {
         }
         .caja {
             background-color: $color4;
-            // display: flex;
-            // flex-direction: row;
             width: 350px;
             height: 500px;
             border-radius: 20px;
             padding: 1rem;
             box-shadow: 0 0 20px #727272d2;
-            // overflow: hidden;
-            // justify-content: center;
             margin-top: 2rem;
             .presentacion {
                 padding: 1rem;
-                // justify-content:space-evenly;
-                // line-height: 3rem;
                 font-family: $fuente-titulo;
                 font-size: 1.6rem;
                 color: black;
@@ -166,11 +133,6 @@ body {
                 background-color: $color4;
             }
         }
-        // .video {
-        //     justify-content: bottom;
-        //     max-width: 10vh;
-        //     max-height: 30vh;
-        // }
     }
 
     // footer general

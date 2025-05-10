@@ -3,7 +3,6 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        // overflow-x: hidden;
     }
 
     .barra {
@@ -107,27 +106,3 @@
         padding: 5rem;
     }
 }
-
-// @mixin aaa {
-//     @media (min-width:  374px) and (max-width: 1024px) {
-//         @content;
-//     }
-// }
-
-// @mixin bbb {
-//     @media (min-width: 374px) and (max-width: 800px) {
-//         @content;
-//     }
-// }
-
-// @mixin ccc {
-//     @media (min-width: 1024px) and (max-width: 1700px) {
-//         @content;
-//     }
-// }
-
-// @mixin ddd {
-//     @media (min-width: 1400px) {
-//         @content;
-//     }
-// }
