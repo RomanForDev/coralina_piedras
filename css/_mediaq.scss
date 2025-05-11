@@ -1,14 +1,77 @@
+@use "./vars" as*;
+
+@media (min-width: 350px) and (max-width: 900px) {
+    nav {
+        margin: 0px;
+        padding: 0px;
+        display: none;
+        .logo {
+            display: none;
+        }
+        .barra {
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+            margin-right: 0rem;
+            margin-top: 0rem;
+            background-color: #d288e700;
+            gap: 0rem;
+            .boton {
+                font-size: 0.5rem;
+            }
+        }
+    }
+    .carrusel {
+        padding-left: 3rem;
+        padding-right: 3rem;
+        padding-bottom: 3rem;
+        .img {
+            display: none;
+        }
+        .img-index {
+            display: none;
+        }
+        .caja {
+            // align-items: center;
+            padding: 1rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            margin-top: 1rem;
+            .presentacion {
+                padding: 0rem;
+                font-size: 1.4rem;
+            }
+        }
+    }
+}
+
+.map {
+    display: none;
+}
+
+footer {
+    .redes {
+        column-gap: 2.5rem;
+        .ftr-img {
+            width: 100%;
+            gap:0.5rem;
+            align-items:center;
+            background-color: rgba(240, 248, 255, 0);
+        }
+        a {
+            background-color: $color3;
+        }
+    }
+}
+
+
+
+
 @media (min-width: 374px) and (max-width: 1024px) {
     *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
-
-    .barra {
-        justify-content: space-around;
-        justify-items: center;
-        flex-direction: row;
     }
 
     .catalogo {
@@ -44,6 +107,7 @@
         }
     }
 }
+
 
 @media (min-width: 374px) and (max-width: 800px) {
     .etiquetas {
@@ -102,7 +166,7 @@
 
 @media (min-width: 1400px) {
     .etiquetas {
-        column-gap: 8rem;
-        padding: 5rem;
+        column-gap: 9rem;
+        padding: 4rem;
     }
 }
