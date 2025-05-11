@@ -1,6 +1,6 @@
     // productos.html
 
-    @use "./vars" as*;
+@use "./vars" as*;
 
 .catalogo {
     display: grid;
@@ -49,129 +49,72 @@
     }
     
     .cuarzo-verde {
-        grid-column: 1/3;
+        @extend .cornalina;
         grid-row: 3;
-        clip-path: circle(90px at 50% 50%);
     }
     
     .cuarzoverde-texto {
-        grid-column: 3/8;
+        @extend .cornalina-texto;
         grid-row: 3;
-        justify-content: center;
-        text-align:start;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
     }
 
     .onix-cielo {
-        grid-column: 7/9;
+        @extend .cuarzo-rosa;
         grid-row: 4;
-        clip-path: circle(90px at 50% 50%);
     }
     
     .onixcielo-texto {
-        grid-column: 2/7;
+        @extend .cuarzorosa-texto;
         grid-row: 4;
-        justify-content: center;
-        text-align:end;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
     }
     
     .onix-negro {
-        grid-column: 1/3;
+        @extend .cornalina;
         grid-row: 5;
-        clip-path: circle(90px at 50% 50%);
     }
     
     .onixnegro-texto {
-        grid-column: 3/8;
+        @extend .cornalina-texto;
         grid-row: 5;
-        justify-content: center;
-        text-align:start;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
     }
 
     .esmeralda {
-        grid-column: 7/9;
+        @extend .cuarzo-rosa;
         grid-row: 6;
-        clip-path: circle(90px at 50% 50%);
-        // border: 1px solid black;
     }
 
     .esmeralda-texto {
-        grid-column: 2/7;
+        @extend .cuarzorosa-texto;
         grid-row: 6;
-        justify-content: center;
-        text-align:end;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
-        // border: 1px solid black;
     }
     
     .selenita {
-        grid-column: 1/3;
+        @extend .cornalina;
         grid-row: 7;
-        clip-path: circle(90px at 50% 50%);
-        // border: 1px solid black;
     }
 
     .selenita-texto {
-        grid-column: 3/8;
+        @extend .cornalina-texto;
         grid-row: 7;
-        justify-content: center;
-        text-align:start;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
-        // border: 1px solid black;
     }
 
     .sodalita {
-        grid-column: 7/9;
+        @extend .cuarzo-rosa;
         grid-row: 8;
-        clip-path: circle(90px at 50% 50%);
-        // border: 1px solid black;
     }
 
     .sodalita-texto {
-        grid-column: 2/7;
+        @extend .cuarzorosa-texto;
         grid-row: 8;
-        justify-content: center;
-        text-align:end;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
-        // border: 1px solid black;
     }
 
     .turmalina {
-        grid-column: 1/3;
+        @extend .cornalina;
         grid-row: 9;
-        clip-path: circle(90px at 50% 50%);
-        // border: 1px solid black;
     }
 
     .turmalina-texto {
-        grid-column: 3/8;
+        @extend .cornalina-texto;
         grid-row: 9;
-        justify-content: center;
-        text-align:start;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
-        font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
-        // border: 1px solid black;
     }
 }
