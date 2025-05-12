@@ -18,38 +18,22 @@ h2 {
   box-shadow: 0 0 15px rgba(114, 114, 114, 0.8235294118);
 }
 
-.top {
-  margin: 0;
-  padding: 0;
-  background-color: #F7EFFA;
-  box-sizing: border-box;
-  position: relative;
-}
 .top main nav {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 15vh;
   background-color: #D288E7;
-  padding: 0.5rem;
-  min-width: 100%;
-  max-height: 75px;
+  padding: 0.3rem;
 }
 .top main nav {
   transition: 0.5s;
 }
-.top main nav .logo {
-  position: relative;
-  justify-items: start;
-  border-radius: 100%;
-}
 .top main nav .barra {
-  align-items: center;
   display: flex;
-  flex-direction: row;
-  justify-content: end;
-  margin-right: 1rem;
-  margin-top: 1rem;
+  flex-flow: nowrap space-between;
+  background-color: #D288E7;
+  justify-content: start;
+  width: 100%;
+  height: 6vh;
+  padding-right: 1rem;
+  max-height: 75px;
   width: 100%;
   background-color: rgba(210, 136, 231, 0);
   gap: 2rem;
@@ -57,11 +41,17 @@ h2 {
 .top main nav .barra {
   transition: 0.5s;
 }
+.top main nav .barra .logo {
+  position: relative;
+  border-radius: 100%;
+  margin-right: 100rem;
+}
 .top main nav .barra .boton {
+  padding-top: 1.2rem;
   color: #F7EFFA;
   background-color: rgba(210, 136, 231, 0);
   font-family: "Playwrite DE Grund", cursive;
-  font-size: 1.2rem;
+  font-size: larger;
   list-style: none;
   text-decoration: none;
   text-shadow: 0px 0px 20px rgba(114, 114, 114, 0.8235294118);
@@ -317,25 +307,16 @@ footer .redes .ftr-img {
 }
 
 @media (min-width: 350px) and (max-width: 900px) {
-  nav {
-    margin: 0px;
-    padding: 0px;
-    display: none;
-  }
-  nav .logo {
-    display: none;
-  }
   nav .barra {
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
-    margin-right: 0rem;
-    margin-top: 0rem;
     background-color: rgba(210, 136, 231, 0);
-    gap: 0rem;
+    flex-flow: row center;
+    overflow: auto;
+  }
+  nav .barra .logo {
+    display: none;
   }
   nav .barra .boton {
-    font-size: 0.5rem;
+    font-size: xx-small;
   }
   .carrusel {
     padding-left: 3rem;
