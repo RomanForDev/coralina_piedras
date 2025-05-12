@@ -45,6 +45,7 @@ h2 {
   position: relative;
   border-radius: 100%;
   margin-right: 100rem;
+  margin-top: 5px;
 }
 .top main nav .barra .boton {
   padding-top: 1.2rem;
@@ -339,11 +340,10 @@ footer .redes .ftr-img {
     padding: 0rem;
     font-size: 1.4rem;
   }
+  .formulario .map {
+    display: none;
+  }
 }
-.map {
-  display: none;
-}
-
 footer .redes {
   column-gap: 2.5rem;
 }
