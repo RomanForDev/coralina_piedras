@@ -27,28 +27,25 @@ h2 {
 }
 .top main nav .barra {
   display: flex;
-  flex-flow: nowrap space-between;
+  flex-direction: row;
   background-color: #D288E7;
-  justify-content: start;
-  width: 100%;
-  height: 6vh;
-  padding-right: 1rem;
-  max-height: 75px;
-  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  margin-right: 2rem;
+  max-height: 65px;
   background-color: rgba(210, 136, 231, 0);
-  gap: 2rem;
 }
 .top main nav .barra {
   transition: 0.5s;
 }
 .top main nav .barra .logo {
-  position: relative;
   border-radius: 100%;
-  margin-right: 61%;
-  margin-top: 5px;
+  height: 5rem;
+  width: 5rem;
+  margin-top: 1rem;
 }
 .top main nav .barra .boton {
-  padding-top: 1.2rem;
   color: #F7EFFA;
   background-color: rgba(210, 136, 231, 0);
   font-family: "Playwrite DE Grund", cursive;
