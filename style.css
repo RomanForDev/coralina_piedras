@@ -6,10 +6,14 @@
   list-style: none;
 }
 
+body {
+  background-color: #F7EFFA;
+}
+
 h2 {
   text-align: center;
   padding: 1rem;
-  font-family: "Cookie", cursive;
+  font-family: "Tangerine", cursive;
   font-size: 4rem;
   background-color: #FDC9DF;
   border-bottom-left-radius: 100%;
@@ -20,7 +24,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-family: "Cookie", cursive;
+  font-family: "Tangerine", cursive;
   font-size: 3rem;
   background-color: #FDC9DF;
   border-bottom-left-radius: 100%;
@@ -30,8 +34,8 @@ h3 {
 }
 
 p {
-  font-family: "Cookie", cursive;
-  font-size: x-large;
+  font-family: "Tangerine", cursive;
+  font-size: xx-large;
 }
 
 .top main nav {
@@ -65,7 +69,7 @@ p {
 .top main nav .barra .boton {
   color: #F7EFFA;
   background-color: rgba(210, 136, 231, 0);
-  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Red Hat Display", sans-serif;
   font-size: larger;
   list-style: none;
   text-decoration: none;
@@ -81,7 +85,7 @@ p {
   text-align: center;
   padding: 1rem;
   font-size: 6rem;
-  font-family: "Cookie", cursive;
+  font-family: "Lavishly Yours", cursive;
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
   box-shadow: 0 0 15px rgba(114, 114, 114, 0.8235294118);
@@ -114,22 +118,16 @@ p {
   max-height: 100%;
   box-shadow: 0 0 20px rgba(114, 114, 114, 0.8235294118);
 }
-.carrusel .caja {
-  background-color: #FDC9DF;
-  width: 450px;
-  height: 500px;
-  border-radius: 20px;
-  padding: 1rem;
-  box-shadow: 0 0 20px rgba(114, 114, 114, 0.8235294118);
-  margin-top: 2rem;
-}
-.carrusel .caja .presentacion {
-  padding: 1rem;
-  font-family: "Cookie", cursive;
-  font-size: x-large;
+.carrusel .presentacion {
+  font-family: "Tangerine", cursive;
+  font-size: 3rem;
   color: black;
   text-align: center;
-  background-color: #FDC9DF;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.content {
+  padding: 1rem;
 }
 
 footer {
@@ -139,7 +137,7 @@ footer {
   justify-content: space-between;
   background-blend-mode: overlay;
   background-position: bottom;
-  padding: 1rem;
+  padding: 0.4rem;
   box-shadow: 0 0 10px rgba(114, 114, 114, 0.8235294118);
 }
 footer .copy {
@@ -154,6 +152,7 @@ footer .redes {
   background-color: #FAA3E6;
   display: flex;
   column-gap: 3.5rem;
+  align-items: center;
 }
 footer .redes .ftr-img {
   background-color: #FAA3E6;
@@ -188,10 +187,9 @@ footer .redes .ftr-img {
   grid-row: 1;
   justify-content: center;
   text-align: start;
-  font-family: "Playwrite DE Grund", cursive;
-  font-size: 1rem;
+  font-family: "Tangerine", cursive;
+  font-size: 2.1rem;
   font-weight: bolder;
-  text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
 }
 .catalogo .cuarzo-rosa, .catalogo .sodalita, .catalogo .esmeralda, .catalogo .onix-cielo {
   grid-column: 7/9;
@@ -203,10 +201,9 @@ footer .redes .ftr-img {
   grid-row: 2;
   justify-content: center;
   text-align: end;
-  font-family: "Playwrite DE Grund", cursive;
-  font-size: 1.1rem;
+  font-family: "Tangerine", cursive;
+  font-size: 2.1rem;
   font-weight: bolder;
-  text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
 }
 .catalogo .cuarzo-verde {
   grid-row: 3;
@@ -292,11 +289,11 @@ footer .redes .ftr-img {
   display: flex;
   flex-direction: row;
   row-gap: 0px;
-  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Red Hat Display", sans-serif;
   box-shadow: 0 0 15px rgba(114, 114, 114, 0.8235294118);
 }
 .formulario .mb-3 .form-label {
-  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Red Hat Display", sans-serif;
 }
 .formulario .btn-primary {
   background-color: #D288E7;
@@ -310,13 +307,13 @@ footer .redes .ftr-img {
   width: 40%;
 }
 .ingresar .form-check-input {
-  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Red Hat Display", sans-serif;
 }
 .ingresar .form-check-label {
-  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Red Hat Display", sans-serif;
 }
 .ingresar .form-label {
-  font-family: "Playwrite DE Grund", cursive;
+  font-family: "Red Hat Display", sans-serif;
 }
 .ingresar .btn-primary {
   background-color: #D288E7;

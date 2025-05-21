@@ -26,10 +26,10 @@
         grid-row: 1;
         justify-content: center;
         text-align:start;
-        font-family: $fuente-nav;
-        font-size: 1rem;
+        font-family: $fuente-subtitulo;
+        font-size: 2.1rem;
         font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
+        // text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
     }
     .cuarzo-rosa {
         grid-column: 7/9;
@@ -42,10 +42,10 @@
         grid-row: 2;
         justify-content: center;
         text-align:end;
-        font-family: $fuente-nav;
-        font-size: 1.1rem;
+        font-family: $fuente-subtitulo;
+        font-size: 2.1rem;
         font-weight: bolder;
-        text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
+        // text-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 2px #ffffff, 0 0 3px #ffffff;
     }
     
     .cuarzo-verde {

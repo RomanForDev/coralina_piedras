@@ -8,11 +8,14 @@
     list-style: none;
 }
 
+body {
+    background-color: $color1;
+}
 
 h2 {
     text-align: center;
     padding: 1rem;
-    font-family: $fuente-titulo;
+    font-family: $fuente-subtitulo;
     font-size: 4rem;
     background-color: $color4;
     border-bottom-left-radius: 100%;
@@ -20,9 +23,10 @@ h2 {
     text-shadow: 0px 0px 30px #727272d2;
     box-shadow: 0 0 15px #727272d2;
 }
+
 h3 {
     text-align: center;
-    font-family: $fuente-titulo;
+    font-family: $fuente-subtitulo;
     font-size: 3rem;
     background-color: $color4;
     border-bottom-left-radius: 100%;
@@ -32,8 +36,8 @@ h3 {
 }
 
 p {
-    font-family: $fuente-titulo;
-    font-size:x-large;
+    font-family: $fuente-subtitulo;
+    font-size:xx-large;
 }
 
 .top {
@@ -119,25 +123,28 @@ p {
         max-height: 100%;
         box-shadow: 0 0 20px #727272d2;
     }
-    .caja {
-        background-color: $color4;
-        width: 450px;
-        height: 500px;
-        border-radius: 20px;
-        padding: 1rem;
-        box-shadow: 0 0 20px #727272d2;
-        margin-top: 2rem;
-        .presentacion {
-            padding: 1rem;
-            font-family: $fuente-titulo;
-            font-size:x-large;
-            color: black;
-            text-align: center;
-            background-color: $color4;
-        }
+    // .caja {
+    //     background-color: $color4;
+    //     width: 550px;
+    //     height: 600px;
+    //     border-radius: 20px;
+    //     padding: 1rem;
+    //     box-shadow: 0 0 20px #727272d2;
+    //     margin-top: 2rem;
+    .presentacion {
+        // padding: 3rem;
+        font-family: $fuente-subtitulo;
+        font-size: 3rem;//30px;//x-large;
+        color: black;
+        text-align: center;
+        background-color: #ffffff00;
     }
 }
 
+
+.content {
+    padding: 1rem;
+}
 // footer general
 
 footer {
@@ -147,7 +154,7 @@ footer {
     justify-content: space-between;
     background-blend-mode: overlay;
     background-position: bottom;
-    padding: 1rem;
+    padding: 0.4rem;
     box-shadow: 0 0 10px #727272d2;
     .copy {
         display: flex;
@@ -161,6 +168,7 @@ footer {
         background-color: $color3;
         display: flex;
         column-gap: 3.5rem;
+        align-items: center;
         .ftr-img {
             background-color: $color3;
             display: flex;
