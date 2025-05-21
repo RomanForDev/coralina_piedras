@@ -1,12 +1,12 @@
 Hover en Catálogo para reescalar las cards (Si llego a tiempo)
 
 Proyecto Coralina Piedras
-Es un proyect oweb pensado como una página catálogo y de contacto e información. En la misma se encuentran detalles de los productos que venden, como la descripción de las piedras energéticas y sus propiedades (productos.html) como una página catálogo con cards en la cual se pondrían ya los ítems a la venta. Pensado para una base de datos pequeña en la cual se maneje stock como también flexible para crear nuevas clases de productos. Al final tiene un index de ingreso al sistema para administradores a los fines de poder hacer uso de la base de datos y almacenamiento en general.
+Es un proyecto web pensado como una página catálogo y de contacto e información. En la misma se encuentran detalles de los productos que venden, como la descripción de las piedras energéticas y sus propiedades (productos.html) como una página catálogo con cards en la cual se pondrían ya los ítems a la venta. Pensado para una base de datos pequeña en la cual se maneje stock como también flexible para crear nuevas clases de productos. Al final tiene un index de ingreso al sistema para administradores a los fines de poder hacer uso de la base de datos y almacenamiento en general.
 
 Falta:
-    poner dentro de header no se que cosa.
-    corregir imágenes y textos que se superponen en responsive de "productos".
-    terminar cards y corregir color de los botones (seguro asignarles la clase button mía).
-    tratar de sacarle peso al proyecto
-
-    mas contenido en "contacto" e "ingresar" (veremos)
+    -poner dentro de header no se que cosa.
+    -corregir imágenes y textos que se superponen en responsive de "productos".
+    -terminar cards y corregir color de los botones (seguro asignarles la clase button mía).
+    -tratar de sacarle peso al proyecto
+    -SEO
+    -mas contenido en "contacto" e "ingresar" (veremos)
