@@ -17,20 +17,13 @@
             }
         }
     }
-    // .carrusel {
-        // padding-left: 6rem;
-        // padding-right: 6rem;
-        // padding-bottom: 6rem;
-        // padding: 1rem;
-        // margin-top: 1rem;
-        // padding: 1rem;
-        // margin-top: 1rem;
-    //     .presentacion {
-    //         padding: 0rem;
-    //         font-size: 1.4rem;
-    //     }
-    // }
-    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
     .formulario {
         .map {
             display: none;
@@ -54,7 +47,7 @@ footer {
 }
 
 
-@media (min-width: 389px) and (max-width: 1210px) {
+@media (min-width: 389px) and (max-width: 1278px) {
     *{
         margin: 0;
         padding: 0;

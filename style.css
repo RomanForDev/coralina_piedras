@@ -167,7 +167,7 @@ footer .redes .ftr-img {
   justify-content: center;
   text-align: start;
   font-family: "Tangerine", cursive;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   font-weight: bolder;
 }
 .catalogo .cuarzo-rosa, .catalogo .sodalita, .catalogo .esmeralda, .catalogo .onix-cielo {
@@ -176,11 +176,11 @@ footer .redes .ftr-img {
 }
 .catalogo .cuarzorosa-texto, .catalogo .sodalita-texto, .catalogo .esmeralda-texto, .catalogo .onixcielo-texto {
   grid-column: 1/10;
-  grid-row: 2;
+  grid-row: 1.8;
   justify-content: center;
   text-align: end;
   font-family: "Tangerine", cursive;
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 .catalogo .cuarzo-verde {
@@ -315,6 +315,13 @@ footer .redes .ftr-img {
   nav .barra .boton {
     font-size: xx-small;
   }
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
   .formulario .map {
     display: none;
   }
@@ -332,7 +339,7 @@ footer .redes a {
   background-color: #FAA3E6;
 }
 
-@media (min-width: 389px) and (max-width: 1210px) {
+@media (min-width: 389px) and (max-width: 1278px) {
   * {
     margin: 0;
     padding: 0;
