@@ -5,7 +5,6 @@ Es un proyecto web pensado como una página catálogo y de contacto e informaci�
 
 Falta:
     -poner dentro de header no se que cosa.
-    -terminar cards y corregir color de los botones (seguro asignarles la clase button mía).
     -tratar de sacarle peso al proyecto
     -SEO
     -mas contenido en "contacto" e "ingresar" (veremos)

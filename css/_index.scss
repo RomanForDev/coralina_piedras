@@ -113,6 +113,10 @@ p {
 
 .content {
     padding: 1rem;
+    .img-fluid:hover {
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
 }
 // footer general
 

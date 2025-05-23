@@ -11,8 +11,12 @@
     padding: 3rem;
     padding-left: 5rem;
     padding-right: 5rem;
-    .card {
-        .card-img-top {
+    .card:hover{
+        transform: scale(1.05);
+        transition: 0.5s;
+    }
+    .card{
+        .card-img-top{
             height: 300px;
             width: auto;
             box-shadow: 0 0 15px #727272d2;
