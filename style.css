@@ -294,6 +294,8 @@ footer .redes .ftr-img {
 .ingresar {
   justify-self: center;
   width: 40%;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
 }
 .ingresar .form-check-input {
   font-family: "Red Hat Display", sans-serif;
