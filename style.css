@@ -122,6 +122,7 @@ footer {
   background-position: bottom;
   padding: 0.4rem;
   box-shadow: 0 0 10px rgba(114, 114, 114, 0.8235294118);
+  max-height: 6.5rem;
 }
 footer .copy {
   display: flex;
@@ -295,7 +296,7 @@ footer .redes .ftr-img {
   justify-self: center;
   width: 40%;
   margin-top: 2rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 3.9rem;
 }
 .ingresar .form-check-input {
   font-family: "Red Hat Display", sans-serif;
@@ -310,14 +311,14 @@ footer .redes .ftr-img {
   background-color: #D288E7;
 }
 
-@media (min-width: 350px) and (max-width: 900px) {
+@media (min-width: 320px) and (max-width: 900px) {
   nav .barra {
     background-color: rgba(210, 136, 231, 0);
     flex-flow: row center;
     overflow: auto;
     padding: 0.5rem;
     margin-left: 0.5rem;
-    font-size: small;
+    font-size: smaller;
   }
   nav .barra .logo {
     display: none;
@@ -336,12 +337,15 @@ footer .redes .ftr-img {
     display: none;
   }
 }
+footer .copy {
+  font-size: larger;
+}
 footer .redes {
-  column-gap: 2.5rem;
+  column-gap: 0.2rem;
 }
 footer .redes .ftr-img {
-  width: 100%;
-  gap: 0.5rem;
+  width: 80%;
+  gap: 0.3rem;
   align-items: center;
   background-color: rgba(240, 248, 255, 0);
 }
@@ -402,7 +406,7 @@ footer .redes a {
     text-align: center;
   }
 }
-@media (min-width: 374px) and (max-width: 1250px) {
+@media (min-width: 320px) and (max-width: 1250px) {
   .etiquetas {
     display: grid;
     justify-items: center;
@@ -415,7 +419,8 @@ footer .redes a {
   .etiquetas .card {
     width: 100%;
     height: 100%;
-    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
   }
 }
 @media (min-width: 1024px) and (max-width: 1700px) {
