@@ -51,9 +51,9 @@ p {
   background-color: #D288E7;
   justify-content: space-between;
   align-items: center;
-  height: 12vh;
+  height: 10vh;
   margin-right: 2rem;
-  max-height: 65px;
+  max-height: 55px;
   background-color: rgba(210, 136, 231, 0);
 }
 .top main nav .barra {
@@ -137,7 +137,7 @@ footer .copy {
 footer .redes {
   background-color: #FAA3E6;
   display: flex;
-  column-gap: 3.5rem;
+  column-gap: 4.5rem;
   align-items: center;
 }
 footer .redes .ftr-img {
@@ -145,7 +145,7 @@ footer .redes .ftr-img {
   display: flex;
   flex-direction: row;
   justify-self: end;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .catalogo {
