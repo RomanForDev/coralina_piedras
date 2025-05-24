@@ -6,9 +6,10 @@
     display:flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     gap: 12rem;
     margin: 1.8rem;
+    overflow: hidden;
     .mb-3 {
         width: 20rem;
         .form-check-input {
@@ -38,9 +39,9 @@
 .ingresar {
     justify-self: center;
     width: 50%;
-    padding: 7.5rem;
+    padding: 7rem;
     // margin-top: 2rem;
-    // margin-bottom: 3.9rem;
+    margin-bottom: 3rem;
     .form-check-input {
         font-family: $fuente-nav;
     }

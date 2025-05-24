@@ -266,9 +266,10 @@ footer .redes .ftr-img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
+  width: 90%;
   gap: 12rem;
   margin: 1.8rem;
+  overflow: hidden;
 }
 .formulario .mb-3 {
   width: 20rem;
@@ -298,7 +299,8 @@ footer .redes .ftr-img {
 .ingresar {
   justify-self: center;
   width: 50%;
-  padding: 7.5rem;
+  padding: 7rem;
+  margin-bottom: 3rem;
 }
 .ingresar .form-check-input {
   font-family: "Red Hat Display", sans-serif;
